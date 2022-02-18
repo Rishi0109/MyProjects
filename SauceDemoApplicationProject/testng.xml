@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.sauceDemo.TestClasses.TC03VerifyLogoutFunctionality"/>
+      <class name="com.sauceDemo.TestClasses.TC02VerifyAddToCartFUnctionality"/>
+      <class name="com.sauceDemo.TestClasses.TC01VerifyLoginFunctioanlity"/>
+	  <class name="com.sauceDemo.TestClasses.TC04Verifywhetherweareabletobuytheproductornot"/>
+	  <class name="com.sauceDemo.TestClasses.TC07Verifywhetherweareabletoapplythefilter"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
