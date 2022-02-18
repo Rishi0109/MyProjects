@@ -1,0 +1,27 @@
+package listof13arrayprograms;
+
+public class Oddandevennumbersofarray 
+{
+public static void main(String[] args) 
+{
+	int a[]= {1,2,3,4,5,6,7,8,9,10,90,76,13,17,25};
+	System.out.println("length of array is " + a.length);
+	System.out.println("EVEN no are");
+	for (int i=0;i<a.length;i++)
+	{
+		if(a[i]%2==0)
+		{
+			System.out.println(a[i]);
+		}
+	}
+	System.out.println();
+	System.out.println("ODD  no are");
+	for (int i=0;i<a.length;i++)
+	{
+		if(a[i]%2!=0)
+		{
+			System.out.println(a[i]);
+		}
+	}
+}
+}
